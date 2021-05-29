@@ -9,3 +9,8 @@ sudo ln -s /var/lib/snapd/snap /snap
 
 #install visual studio code
 sudo snap install code --classic
+
+#remove snap 
+sudo dnf remove snapd
+
+
