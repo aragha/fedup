@@ -16,4 +16,4 @@ fi
 sudo snap install code --classic
 
 #remove snap 
-sudo dnf remove snapd --assumeyes
+#sudo dnf remove snapd --assumeyes
