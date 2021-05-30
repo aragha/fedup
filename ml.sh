@@ -17,3 +17,6 @@ pip list installed | grep "numpy"
 pip list installed | grep "pandas"
 pip list installed | grep "scipy"
 pip list installed | grep "sklearn"
+
+echo "####    check other requirements    ####"
+python3 -c "import os, tarfile, urllib, zlib, joblib"
