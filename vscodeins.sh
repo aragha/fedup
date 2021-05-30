@@ -6,13 +6,12 @@ if grep 'snapd' "./fc"; then
 else
 	#install and enable snapd
         sudo dnf install snapd --assumeyes
+	#enable classic snap support - create a symbolic link between
+	# /var/lib/snapd/snap and /snap
+	sudo ln -s /var/lib/snapd/snap /snap 
+	
+	sudo reboot now
 fi
-
-#enable classic snap support - create a symbolic link between
-# /var/lib/snapd/snap and /snap
-sudo ln -s /var/lib/snapd/snap /snap 
-
-sudo reboot now
 #install visual studio code
 sudo snap install code --classic
 
