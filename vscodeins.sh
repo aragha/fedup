@@ -1,7 +1,7 @@
 #instructions found in https://snapcraft.io/install/code/fedora
 
-dnf list installed | grep "snapd" > fc
-if grep 'snapd' "./fc"; then
+dnf list installed | grep "snapd.x86_64" > fc
+if grep 'snapd.x86_64' "./fc"; then
         echo 'snapd installed'
 else
 	#install and enable snapd
