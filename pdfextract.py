@@ -17,6 +17,7 @@ for pageNum in range(65, 130):
     pdfWriter.addPage(pageObj)
 
 pdfWriter.write(pdfOutputFile)
- 
+
+#close all opened files
 pdfOutputFile.close()
 pdfInputFile.close()
