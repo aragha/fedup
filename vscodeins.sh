@@ -17,3 +17,7 @@ sudo snap install code --classic
 
 #remove snap 
 #sudo dnf remove snapd --assumeyes
+
+#also remember to set git variables to manage source control
+git config user.name ''
+git config user.email ''
