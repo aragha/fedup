@@ -21,3 +21,6 @@ pdfWriter.write(pdfOutputFile)
 #close all opened files
 pdfOutputFile.close()
 pdfInputFile.close()
+
+#also check this
+#https://stackoverflow.com/questions/34837707/how-to-extract-text-from-a-pdf-file
